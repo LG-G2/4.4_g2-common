@@ -255,3 +255,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
+
+## Beer-specific stuff
+
+# PA Lightbulb
+PRODUCT_PACKAGES += \
+    Lightbulb
